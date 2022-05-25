@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import 'colors.dart';
+import 'package:travel_app_ui/constants/constants.dart';
 
 class AppTheme {
   static final ThemeData appTheme = ThemeData(
@@ -39,7 +36,7 @@ class AppTheme {
   static final TextStyle _headline4 = TextStyle(
     fontFamily: "Roboto",
     fontWeight: FontWeight.w400,
-    color: const Color(0xFF1F1F22),
+    color: const Color(0xFF959595),
     fontSize: 16.sp,
   );
 }
